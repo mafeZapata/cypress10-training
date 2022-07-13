@@ -4,15 +4,14 @@
   "description": "This is a Workshop about Cypress",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "test": "cypress run"
-=======
+
+    "test": "cypress run",
 
     "test:open": "npm run lint && cypress open",
     "lint": "eslint ./cypress/e2e/**/*.ts",
     "lint:fix": "npm run lint -- --fix"
 
->>>>>>> 9907520deccde68257743cec91ce2d67e72ec5f1
+
   },
   "repository": {
     "type": "git",
