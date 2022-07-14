@@ -4,14 +4,10 @@
   "description": "This is a Workshop about Cypress",
   "main": "index.js",
   "scripts": {
-
     "test": "cypress run",
-
     "test:open": "npm run lint && cypress open",
     "lint": "eslint ./cypress/e2e/**/*.ts",
     "lint:fix": "npm run lint -- --fix"
-
-
   },
   "repository": {
     "type": "git",
@@ -28,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/mafeZapata/cypress10-training/issues"
   },
-
   "homepage": "https://github.com/mafeZapata/cypress10-training#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.6",
